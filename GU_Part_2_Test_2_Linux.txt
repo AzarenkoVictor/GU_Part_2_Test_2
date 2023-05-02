@@ -1,0 +1,35 @@
+mkdir Игрушки_для_школьников
+mkdir Игрушки_для_дошколят
+
+
+cd Игрушки_для_дошколят/
+touch Роботы
+touch Конструктор
+touch Настольные_игры
+
+
+cd Игрушки_для_школьников/
+touch Мягкие_игрушки
+touch Куклы
+touch Машинки
+
+
+mkdir Имя_Игрушки
+mv Игрушки_для_дошколят/* Имя_Игрушки/
+mv Игрушки_для_школьников/* Имя_Игрушки/
+
+
+mv victor/home/Имя_Игрушки/ victor/home/Игрушки/
+
+
+cd Игрушки
+ll
+
+
+sudo snap install opera
+sudo snap remove opera
+
+
+crontab -e
+crontab -l
+*/3 * * * * tar -zcf victor/home/test.txt.tgz victor/home/
